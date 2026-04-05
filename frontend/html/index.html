@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Candit</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- TOPO -->
+      <div class="header">
+        <h1 class="logo">Candit</h1>
+
+        <div class="header-actions">
+          <button class="btn primary" onclick="abrirModal()">Postar</button>
+          <button class="btn danger" onclick="logout()">Sair</button>
+        </div>
+      </div>
+
+      <!-- FEED -->
+      <div id="feed" class="feed"></div>
+    </div>
+
+    <!-- MODAL -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="fechar" onclick="fecharModal()">&times;</span>
+
+        <h2>Criar Post</h2>
+
+        <input type="text" id="title" placeholder="Título" />
+        <textarea id="message" placeholder="O que está acontecendo?"></textarea>
+
+        <button class="btn primary" onclick="createPost()">Enviar</button>
+      </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>

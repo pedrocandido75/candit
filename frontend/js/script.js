@@ -1,3 +1,13 @@
+const user = localStorage.getItem("user");
+
+if (!user) {
+    window.location.href = "login.html";
+}
+const userObj = JSON.parse(user);
+const userId = userObj.id;
+
+console.log(userId);
+
 function buscarUsuarios() {
     fetch("http://localhost:8080/api/users")
         .then(response => response.json())
@@ -25,13 +35,12 @@ function abrirFormulario() {
 function createPost() {
     const title = document.getElementById("title").value;
     const message = document.getElementById("message").value;
-    const user_id = document.getElementById("user_id").value;
 
     const novoPost = {
         title: title,
         message: message,
         user: {
-            id: Number(user_id)
+            id: userId
         }
     };
 
@@ -55,8 +64,6 @@ function createPost() {
 
             document.getElementById("title").value = "";
             document.getElementById("message").value = "";
-            document.getElementById("user_id").value = "";
-            document.getElementById("formPost").style.display = "none";
         })
         .catch(error => {
             console.error("Erro:", error);
@@ -70,11 +77,15 @@ function buscarPosts() {
             const feed = document.getElementById("feed");
             feed.innerHTML = "";
 
-            data.forEach(post => {
+            data.reverse().forEach(post => {
                 const div = document.createElement("div");
                 div.classList.add("post");
 
                 div.innerHTML = `
+                    <div class="post-user">
+                        ${post.user ? post.user.username : "Usuário desconhecido"}
+                    </div>
+
                     <div class="post-title">${post.title}</div>
                     <div class="post-message">${post.message}</div>
                 `;
@@ -95,4 +106,10 @@ function abrirModal() {
 
 function fecharModal() {
     document.getElementById("modal").style.display = "none";
+}
+
+function logout() {
+
+    localStorage.removeItem("user");
+    window.location.href = "login.html";
 }
