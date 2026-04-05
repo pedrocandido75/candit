@@ -1326,3 +1326,489 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
   errno: -4039,
   erroredSysCall: 'connect'
 }
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 16:36:48.233
+!MESSAGE [Info] Document is null for editor: UserController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 16:36:48.234
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/pedro/Documents/Teste/backend/src/main/java/com/backendcandit/controller/UserController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 16:36:48.450
+!MESSAGE [Info] Document is null for editor: Post.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 16:36:48.450
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/pedro/Documents/Teste/backend/src/main/java/com/backendcandit/models/Post.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 16:36:48.462
+!MESSAGE [Info] Document is null for editor: PostService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 16:36:48.463
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/pedro/Documents/Teste/backend/src/main/java/com/backendcandit/services/PostService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 16:36:48.476
+!MESSAGE [Info] Document is null for editor: UserService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 16:36:48.477
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/pedro/Documents/Teste/backend/src/main/java/com/backendcandit/services/UserService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 16:36:48.489
+!MESSAGE [Info] Document is null for editor: UserRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 16:36:48.489
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/pedro/Documents/Teste/backend/src/main/java/com/backendcandit/repository/UserRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 16:36:48.516
+!MESSAGE [Info] Document is null for editor: User.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 16:36:48.517
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/pedro/Documents/Teste/backend/src/main/java/com/backendcandit/models/User.java
+!SESSION 2026-04-05 17:17:27.422 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.6
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-04-05 17:17:30.738
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-04-05 17:17:35.568
+!MESSAGE Logback config file: C:\Users\pedro\Documents\Teste\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-04-05 17:17:35.890
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-04-05 17:17:35.890
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-04-05 17:17:36.135
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-04-05 17:17:36.135
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2026-04-05 17:17:40.937
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\zulu21.40.17-ca-jdk21.0.6-win_x64\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/pedro/Documents/Teste/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1775420260937
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\pedro\eclipse\jee-2024-12\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.61.1.202503181316\servers\spring-boot-language-server\spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-04-05 17:17:40.938
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2026-04-05 17:17:40.949
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 23536
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 17:17:43.590
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-04-05 17:17:43.599
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\pedro'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 17:17:43.615
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-04-05 17:17:43.658
+!MESSAGE Boot project ADDED: backend
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-04-05 17:17:43.659
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2026-04-05 17:17:43.660
+!MESSAGE Started Boot LS process
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 17:17:43.935
+!MESSAGE [Info] No proxy data found
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-05 17:17:44.662
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.290.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-05 17:17:44.995
+!MESSAGE [Info]	[certificates] Removed 10 expired certificates
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2026-04-05 17:17:46.307
+!MESSAGE Authorization Server started successfuly
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-05 17:24:30.343
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/gpt-41-copilot/completions] took 382.37369999999646 ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:30.343
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '11e1412b-be68-4b9f-893f-8fd26a9c27d2',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:30.431
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '11e1412b-be68-4b9f-893f-8fd26a9c27d2',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-05 17:24:30.431
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [11e1412b-be68-4b9f-893f-8fd26a9c27d2] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-05 17:24:30.433
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-05 17:24:31.003
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/gpt-41-copilot/completions] took 281.3092000000179 ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:31.004
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '6a794958-5ed7-4359-bf83-2ddfc7519887',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:31.120
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '6a794958-5ed7-4359-bf83-2ddfc7519887',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:31.121
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '6a794958-5ed7-4359-bf83-2ddfc7519887',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:31.121
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '6a794958-5ed7-4359-bf83-2ddfc7519887',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:31.121
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '6a794958-5ed7-4359-bf83-2ddfc7519887',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:31.122
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '6a794958-5ed7-4359-bf83-2ddfc7519887',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-05 17:24:31.122
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [6a794958-5ed7-4359-bf83-2ddfc7519887] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:31.122
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '6a794958-5ed7-4359-bf83-2ddfc7519887',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-05 17:24:31.122
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-05 17:24:31.478
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/gpt-41-copilot/completions] took 267.0359999999637 ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:31.478
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '8a1ed273-7617-46a3-a739-baf01a0cc499',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:31.561
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '8a1ed273-7617-46a3-a739-baf01a0cc499',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:31.561
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '8a1ed273-7617-46a3-a739-baf01a0cc499',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:31.563
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '8a1ed273-7617-46a3-a739-baf01a0cc499',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:31.563
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '8a1ed273-7617-46a3-a739-baf01a0cc499',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:31.563
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '8a1ed273-7617-46a3-a739-baf01a0cc499',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:31.563
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '8a1ed273-7617-46a3-a739-baf01a0cc499',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:31.564
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '8a1ed273-7617-46a3-a739-baf01a0cc499',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-05 17:24:31.564
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [8a1ed273-7617-46a3-a739-baf01a0cc499] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-05 17:24:31.564
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-05 17:24:31.982
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/gpt-41-copilot/completions] took 260.64199999999255 ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:31.982
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'bc32bf0b-75cd-423e-a2f0-8dc55499eaa2',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:32.064
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'bc32bf0b-75cd-423e-a2f0-8dc55499eaa2',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-05 17:24:32.065
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:32.065
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'bc32bf0b-75cd-423e-a2f0-8dc55499eaa2',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:32.065
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'bc32bf0b-75cd-423e-a2f0-8dc55499eaa2',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:32.066
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'bc32bf0b-75cd-423e-a2f0-8dc55499eaa2',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:32.066
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'bc32bf0b-75cd-423e-a2f0-8dc55499eaa2',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:32.066
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: 'bc32bf0b-75cd-423e-a2f0-8dc55499eaa2',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-05 17:24:32.067
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [bc32bf0b-75cd-423e-a2f0-8dc55499eaa2] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-05 17:24:34.310
+!MESSAGE [Info]	[fetchCompletions] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/gpt-41-copilot/completions] took 260.27700000000186 ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:34.311
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '2bdd1795-0e4a-46b2-a6bf-1f23d05fe23a',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:34.405
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '2bdd1795-0e4a-46b2-a6bf-1f23d05fe23a',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-05 17:24:34.405
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:34.405
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '2bdd1795-0e4a-46b2-a6bf-1f23d05fe23a',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:34.406
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '2bdd1795-0e4a-46b2-a6bf-1f23d05fe23a',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:34.406
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '2bdd1795-0e4a-46b2-a6bf-1f23d05fe23a',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:34.406
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '2bdd1795-0e4a-46b2-a6bf-1f23d05fe23a',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-04-05 17:24:34.406
+!MESSAGE [Error]	[streamChoices] Request id invalid, should have "completionId" and "created": {
+  headerRequestId: '2bdd1795-0e4a-46b2-a6bf-1f23d05fe23a',
+  completionId: '',
+  created: 0,
+  serverExperiments: '',
+  deploymentId: ''
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-04-05 17:24:34.407
+!MESSAGE [Info]	[streamChoices] request done: headerRequestId: [2bdd1795-0e4a-46b2-a6bf-1f23d05fe23a] model deployment ID: []
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 17:24:41.170
+!MESSAGE [Info] Auto show completion is now false
+
+!ENTRY org.eclipse.jface 2 0 2026-04-05 17:39:40.541
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-04-05 17:39:40.541
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 19:01:14.815
+!MESSAGE [Info] Document is null for editor: PostController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 19:01:14.818
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/pedro/Documents/Teste/backend/src/main/java/com/backendcandit/controller/PostController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 19:01:14.919
+!MESSAGE [Info] Document is null for editor: Post.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 19:01:14.919
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/pedro/Documents/Teste/backend/src/main/java/com/backendcandit/models/Post.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 19:01:14.934
+!MESSAGE [Info] Document is null for editor: User.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 19:01:14.934
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/pedro/Documents/Teste/backend/src/main/java/com/backendcandit/models/User.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 19:01:14.970
+!MESSAGE [Info] Document is null for editor: PostService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-04-05 19:01:14.971
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/pedro/Documents/Teste/backend/src/main/java/com/backendcandit/services/PostService.java

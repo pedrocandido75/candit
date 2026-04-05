@@ -36,5 +36,20 @@ public class PostService {
 		postRepository.deleteById(id);
 	}
 	
+	public Post likePost(Long id) {
+
+	    Post post = postRepository.findById(id)
+	        .orElseThrow(() -> new RuntimeException("Post não encontrado"));
+
+	    Integer likes = post.getLikes();
+
+	    if (likes == null) {
+	        post.setLikes(1);
+	    } else {
+	        post.setLikes(likes + 1);
+	    }
+
+	    return postRepository.save(post);
+	}
 
 }

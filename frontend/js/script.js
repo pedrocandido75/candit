@@ -26,6 +26,10 @@ function buscarUsuarios() {
         });
 }
 
+function irParaConta() {
+    window.location.href = "my_account.html";
+}
+
 function abrirFormulario() {
     const form = document.getElementById("formPost");
     form.style.display = "block";
@@ -82,13 +86,18 @@ function buscarPosts() {
                 div.classList.add("post");
 
                 div.innerHTML = `
-                    <div class="post-user">
-                        ${post.user ? post.user.username : "Usuário desconhecido"}
-                    </div>
+                        <div class="post-user">
+                            ${post.user ? post.user.username : "Sem usuário"}
+                        </div>
 
-                    <div class="post-title">${post.title}</div>
-                    <div class="post-message">${post.message}</div>
-                `;
+                        <div class="post-title">${post.title}</div>
+                        <div class="post-message">${post.message ?? ""}</div>
+
+                        <div class="post-actions">
+                            ❤️ ${post.likes ?? 0}
+                            <button onclick="curtirPost(${post.id})">Curtir</button>
+                        </div>
+                    `;
 
                 feed.appendChild(div);
             });
@@ -112,4 +121,12 @@ function logout() {
 
     localStorage.removeItem("user");
     window.location.href = "login.html";
+}
+
+function curtirPost(postId) {
+    fetch(`http://localhost:8080/post/${postId}`, {
+        method: "PUT"
+    })
+        .then(res => res.json())
+        .then(() => buscarPosts());
 }

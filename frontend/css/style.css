@@ -127,3 +127,25 @@ input, textarea {
   border: none;
   outline: none;
 }
+
+.post-actions {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.post-actions button {
+  background-color: transparent;
+  border: 1px solid #1da1f2;
+  color: #1da1f2;
+  padding: 5px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.post-actions button:hover {
+  background-color: #1da1f2;
+  color: white;
+}
+

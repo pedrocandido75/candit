@@ -1,6 +1,5 @@
 package com.backendcandit.models;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import jakarta.persistence.Entity;
@@ -20,6 +19,7 @@ public class Post {
 	private Long id;
 	private String title;
 	private String message;
+	private Integer likes;
 	
 	@ManyToOne
 	@JoinColumn(name = "user_id")
@@ -50,6 +50,12 @@ public class Post {
 	}
 	public void setMessage(String message) {
 		this.message = message;
+	}
+	public Integer getLikes() {
+		return likes;
+	}
+	public void setLikes(Integer likes) {
+		this.likes = likes;
 	}
 	
 	

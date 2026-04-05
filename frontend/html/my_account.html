@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Minha Conta - Candit</title>
+    <link rel="stylesheet" href="/css/account.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+      <div class="header">
+        <h1 class="logo">Candit</h1>
+        <button class="btn" onclick="voltar()">← Voltar</button>
+      </div>
+
+      <!-- PERFIL -->
+      <div class="profile">
+        <h2>Meu Perfil</h2>
+
+        <input type="text" id="username" placeholder="Username" />
+        <input type="email" id="email" placeholder="Email" />
+        <input type="password" id="password" placeholder="Nova senha" />
+
+        <button class="btn primary" onclick="atualizarPerfil()">
+          Salvar alterações
+        </button>
+      </div>
+
+      <!-- POSTS DO USUÁRIO -->
+      <div class="my-posts">
+        <h2>Meus Posts</h2>
+        <div id="meusPosts"></div>
+      </div>
+    </div>
+
+    <script src="/js/account.js"></script>
+  </body>
+</html>

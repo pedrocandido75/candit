@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #15202b;
+  font-family: Arial;
+  color: white;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #1da1f2;
+}
+
+/* PERFIL */
+.profile {
+  background: #192734;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* POSTS */
+.my-posts {
+  margin-top: 20px;
+}
+
+.post {
+  background: #192734;
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+/* BOTÕES */
+.btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #1da1f2;
+  color: white;
+}
+
+.primary:hover {
+  background-color: #1991da;
+}
+
+/* INPUTS */
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}

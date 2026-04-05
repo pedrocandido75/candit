@@ -1,0 +1,54 @@
+package com.backendcandit.controller;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.backendcandit.models.Post;
+import com.backendcandit.services.PostService;
+
+@RestController
+@RequestMapping("/post")
+@CrossOrigin(origins = "*")
+public class PostController {
+	
+	@Autowired
+	private PostService postService;
+	
+	
+	@PostMapping("/create")
+	public Post registerPost(@RequestBody Post post) {
+		return postService.createPost(post);
+	}
+	
+	 @DeleteMapping("/{id}")
+	    public void deletePost(@PathVariable Long id) {
+	        postService.deletePostById(id);
+	    }
+	
+	@GetMapping("/all")
+	public List<Post> getAllUsers(){
+		return postService.getAllPosts();
+	}
+	
+	@GetMapping("/{title}")
+	public ResponseEntity<Post> getUserById(@PathVariable String title){
+		Optional<Post> post = postService.getPostByTitle(title);
+		if (post.isPresent()) {
+			return ResponseEntity.ok(post.get());
+		} else {
+			return ResponseEntity.notFound().build();
+		}
+	}
+
+}
